@@ -15,7 +15,7 @@ public class ExceptionMain {
 		}catch(Exception e) {
 			div.setB(1);
 			System.out.println(div.divide());
-			return;
+			//return;
 		}finally {
 			System.out.println("Finally executed");
 		}
