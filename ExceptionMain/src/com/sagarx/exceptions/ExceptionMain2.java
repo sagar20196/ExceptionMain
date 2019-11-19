@@ -20,15 +20,15 @@ public class ExceptionMain2 {
 
 	public static void main(String[] args) {
 		int a=10, b=0;
-		//System.out.println(a/b);
-		Object obj= null;
+		System.out.println(a/b);
+		//Object obj= null;                //used to check null pointer exception
 		
 			try {
 				FileInputStream fis=new FileInputStream("");
 			} catch (FileNotFoundException e) {
 				
 			}
-		obj.toString();
+		//obj.toString();
 	}
 
 }
